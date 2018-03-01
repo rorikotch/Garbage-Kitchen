@@ -1,10 +1,37 @@
-
-h1 {
-  text-align: center;
-  font-family: sans-serif;
+#video-background {
+  margin: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  /* right: 0;
+  bottom: 0;  */
 }
 
-p{
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.textoverlayhome {
+  color: white;
+  position: fixed;
+  /* background: rgba(255, 255, 255, 0.3); */
+  padding: 20px;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  line-height: 10px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
   text-align: center;
-  font-family: sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
