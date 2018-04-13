@@ -1,0 +1,85 @@
+[{
+    "name": "Candied Ginger",
+    "difficulty": "Easy",
+    "mealtime": "Dessert",
+    "cook time": "50 minutes"
+  },
+  {
+    "name": "Tropical Bulk Bin Granola",
+    "difficulty": "Easy",
+    "mealtime": "Breakfast",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Candied Mandarin Orange Peels",
+    "difficulty": "Difficult",
+    "mealtime": "Dessert",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Broccoli & Cauliflower Mash",
+    "difficulty": "Easy",
+    "mealtime": "Dinner",
+    "cook time": "30 minutes"
+  },
+  {
+    "name": "Choclate Chip Banana Bread with Rum Caramel",
+    "difficulty": "Medium",
+    "mealtime": "Dessert",
+    "cook time": "50 minutes"
+  },
+  {
+    "name": "Coffee Ground Scones",
+    "difficulty": "Medium",
+    "mealtime": "Breakfast",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Stone Fruit Pit Simple Syrup",
+    "difficulty": "Easy",
+    "mealtime": "Dessert",
+    "cook time": "Tk minutes"
+  },
+  {
+    "name": "Quick Pickes a.k.a. quickles",
+    "difficulty": "Easy",
+    "mealtime": "Lunch",
+    "cook time": "50 minutes"
+  },
+  {
+    "name": "Melted Strawberry Ice Cream Cake",
+    "difficulty": "Easy",
+    "mealtime": "Dessert",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Broccoli Mustard Spread",
+    "difficulty": "Easy",
+    "mealtime": "Dinner",
+    "cook time": "50 minutes"
+  },
+  {
+    "name": "Any Greens Pesto",
+    "difficulty": "Easy",
+    "mealtime": "Dinner",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Ginger Tea",
+    "difficulty": "Easy",
+    "mealtime": "Dessert",
+    "cook time": "50 minutes"
+  },
+  {
+    "name": "Whole Tomato Sauce",
+    "difficulty": "Easy",
+    "mealtime": "Dinner",
+    "cook time": "TK minutes"
+  },
+  {
+    "name": "Veggie Scraps Broth",
+    "difficulty": "Easy",
+    "mealtime": "Dinner",
+    "cook time": "TK minutes"
+  }
+]

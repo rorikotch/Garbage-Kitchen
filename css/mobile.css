@@ -1,0 +1,30 @@
+@import "style.css";
+
+@media screen (max-width:600px){
+
+.recipegrid{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  display: grid;
+}
+
+.recipecard {
+  width: 100%;
+  padding: 0;
+}
+
+.imageBackText h1 {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.recipecontain{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1;
+}
+
+
+}

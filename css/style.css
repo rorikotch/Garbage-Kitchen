@@ -1,48 +1,439 @@
-#video-background {
-  margin: 0;
-  position: fixed;
-  height: 100%;
-  width: 100%;
+/*These are general styles------------------------*/
+
+a:hover{
+  font-weight: 700;
 }
 
-body {
-  margin: 0;
-  background-color: black;
-}
-
-.textoverlayhome {
-  color: white;
-  position: fixed;
-  padding: 20px;
-  bottom: 0;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  line-height: 10px;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-size: 72px;
+img {
   max-width: 100%;
 }
 
-h2 {
-  font-family: "Roboto", sans-serif;
+#navbar{
+  /*this is for if you want to make the navbar a sticky navbar
+  IF NOT REMOVE*/
+}
+
+/*This is the end of general styles------------------------*/
+
+
+/*navigation styles*/
+
+/* .navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   text-decoration: none;
+   font-size: 17px;
+} */
+
+nav {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  background-color: white;
+}
+
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  color: black;
+}
+
+/*navigation styles*/
+
+
+/*this is the start of the home page------------------------*/
+
+div.fullpageVideowrapper{
+    position: relative;
+    bottom: 100px;
+    margin: 0;
+    width: 100%;
+    height: 900px;
+    max-height: 900px;
+    z-index: -1000;
+}
+
+#video-bg {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  height: 100vh;
+  /* width: 100vw; */
+  /* min-width: 100%;
+  min-height: 100%; */
+  z-index: -10;
+  height: auto;
+  background-size: cover;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  z-index: -100;
+  color: white;
+  background-color: black;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  background-size: 100%;
+  background-position: center;
+}
+
+div.videowrapper {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: -1000;
+}
+
+#homepagelogo{
+  margin: auto;
+  /* justify-content: center; */
+  width: 700px;
+  height: 700px;
+  padding: 0;
+  text-align: center;
+  max-width: 100%;
+}
+
+#homepagelogo img{
+  margin: auto;
+  /* justify-content: center; */
+  max-width: 100%;
+
+  height: auto;
+  padding: 0;
+  text-align: center;
+}
+
+/*this is the end of the home page-----------------*/
+
+/*this is the start of the styling for the recipes page--------------------*/
+.recipegrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 10px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.recipecard {
+  width: 300px;
+  height: 400px;
+  border: .5px solid grey;
+}
+
+.recipecard h1,h3,p {
+  color: black;
+}
+
+.recipecard img {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.pagetitle h1{
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 72px;
+  text-align: center;
+  text-decoration: underline;
+  /* background-color: yellow;
+  padding: 20px;  */
+}
+
+.printinfo{
+  display: none;
+}
+
+.right {
+
+}
+
+.notesformaking{
+  /*Make this italic?*/
+}
+
+/*this is the END of styling for the recipes page*/
+
+
+/*these are the styles for the recipe cards on recipe page*/
+
+.recipecard h1 {
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+}
+
+.recipecard h3 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.recipecard p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 10px;
 }
 
 
-@media (min-width: 400px) {
-  .textoverlayhome {
-    grid-template-columns: repeat(1, 1fr);
-    line-height: 40px;
-  }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 42px;
-  }
+/*this is the END of the styles for the recipe cards on recipe page*/
+
+/*this is the style for the candied madarin orange peels recipe page*/
+
+.imageBackground h1 {
+  color: white;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 72px;
+  padding-bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.imageBackground h3 {
+  color: white;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.actualrecipe{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  font-family: 'Roboto';
+}
+
+.actualrecipe h3{
+  text-decoration: underline;
+}
+
+.imageBackText {
+  margin-top: 0;
+}
+
+.imageBackText h1{
+  /* top: 50%;
+  bottom: 50%; */
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
+  font-size: 44px;
+}
+
+.stepvideo {
+  width: 400px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+}
+
+.hidebutton{
+  display: inline-block;
+  float: right;
+}
+
+.blackbar{
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px; 
+}
+
+#revealtext {
+  display: none;
+}
+
+ol li{
+  line-height: 30px;
+  padding: 10px;
+}
+
+ul li{
+  line-height: 30px;
+}
+
+.readless{
+  display:none;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-family: 'Roboto';
+  padding:10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+/*this is the END of style for the candied madarin orange peels recipe page*/
+
+
+/*This is styling for the ginger tea recipe that will be applied to every other recipe on the site*/
+
+.recipecontain{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.boxone{
+
+}
+
+.boxtwo{
+
+}
+
+/*This is the end of the ginger tea styles*/
+
+
+
+body{
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/*This is the END of the styles for the nav*/
+
+
+/* .bannervideo{
+  background-color: yellow;
+  color: black;
+  height: 100px;
+} */
+
+section.imageBackground {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+section#orangePhoto {
+  background-image: url("../media/orange-peels.jpg")
+}
+
+section#granola {
+  background-image: url("../media/granola.jpg")
+}
+
+section#mash {
+  background-image: url("../media/mash.jpg")
+}
+
+section#bread {
+  background-image: url("../media/bread.jpg")
+}
+
+section#scones {
+  background-image: url("../media/scones.jpg")
+}
+
+section#cake {
+  background-image: url("../media/cake.jpg")
+}
+
+section#quickles {
+  background-image: url("../media/quickles.jpg")
+}
+
+section#spread {
+  background-image: url("../media/spread.jpg")
+}
+
+
+/* .bannervideo h1{
+  padding: 10px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+} */
+
+
+.homegrid {
+
+}
+
+.orangeimage{
+
+}
+
+
+/*this is the style for the ABOUT page------------------------*/
+
+
+.aboutcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  max-width: 1500px;
+}
+
+.aboutgrid {
+
+}
+
+.abouttext p {
+  font-family: 'Roboto';
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.aboutimage {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  padding-bottom: 50px;
+}
+
+/*this is the END of styles for the ABOUT page--------------*/
+
+
+/*this is the footer styling------------------------------*/
+.foot {
+  background-color: black;
+  height: 100px;
+  display: block;
+  color: white;
 }
