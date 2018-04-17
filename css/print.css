@@ -80,5 +80,16 @@ h3{
   display: none;
 }
 
+video source{
+  display: none;
+}
+
+img{
+  display: none;
+}
+
+button{
+  display: none; 
+}
 
 }

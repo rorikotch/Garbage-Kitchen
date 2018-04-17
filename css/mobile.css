@@ -26,5 +26,10 @@
   grid-template-rows: 1;
 }
 
+.boxone, .boxtwo {
+  display: block;
+  width: 100%; 
+}
+
 
 }
