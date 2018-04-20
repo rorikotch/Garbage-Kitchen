@@ -437,7 +437,7 @@ section#candiedginger {
 /*this is the style for the ABOUT page------------------------*/
 
 
-.aboutcontai {
+.aboutcontain {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   max-width: 100%;
