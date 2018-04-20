@@ -100,33 +100,37 @@ div.fullpageVideowrapper{
   background-position: center;
 }
 
-div.videowrapper {
+#homepage-logo{
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* div.videowrapper {
   height: 800px;
   width: 100%;
   position: relative;
   overflow: hidden;
   z-index: -1000;
-}
+} */
 
-#homepagelogo{
+/* #homepagelogo{
   margin: auto;
-  /* justify-content: center; */
   width: 700px;
   height: 700px;
   padding: 0;
   text-align: center;
   max-width: 100%;
-}
+} */
 
-#homepagelogo img{
+/* #homepagelogo img{
   margin: auto;
-  /* justify-content: center; */
   max-width: 100%;
 
   height: auto;
   padding: 0;
   text-align: center;
-}
+} */
 
 /*this is the end of the home page-----------------*/
 
