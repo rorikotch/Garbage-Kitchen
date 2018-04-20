@@ -452,7 +452,12 @@ section#candiedginger {
 .pagetitle h2{
   text-decoration: underline;
   font-weight: 700;
-  text-align: center; 
+  text-align: center;
+}
+
+.aboutimage{
+  width: 300px;
+  height: auto;
 }
 
 
