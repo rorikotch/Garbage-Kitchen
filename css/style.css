@@ -74,7 +74,10 @@ div.fullpageVideowrapper{
   grid-template-columns: repeat(auto-fit, 200px);
 } */
 #tagline{
-  text-align: center; 
+  text-align: center;
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
+  font-weight: 700;
+  
 }
 #homepage-logo{
   display: block;
