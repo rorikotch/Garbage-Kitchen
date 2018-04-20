@@ -67,6 +67,19 @@ div.fullpageVideowrapper{
     z-index: -1000;
 }
 
+.homecontainer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+#homepage-logo{
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
 #video-bg {
   position: fixed;
   right: 0;
@@ -100,11 +113,7 @@ div.fullpageVideowrapper{
   background-position: center;
 }
 
-#homepage-logo{
-  text-align: center;
-  justify-content: center;
-  max-width: 100%;
-}
+
 
 /* div.videowrapper {
   height: 800px;
