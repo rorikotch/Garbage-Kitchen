@@ -442,7 +442,9 @@ section#candiedginger {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   max-width: 100%;
-  padding: 10px; 
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px; 
 }
 
 /* .aboutcontain p{
