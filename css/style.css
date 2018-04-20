@@ -185,6 +185,7 @@ div.fullpageVideowrapper{
   padding: 20px;  */
 }
 
+
 .printinfo{
   display: none;
 }
@@ -442,11 +443,15 @@ section#candiedginger {
   grid-template-columns: 1fr 1fr ;
   max-width: 100%;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .aboutcontain p{
   font-family: 'Roboto', sans-serif;
+}
+
+.pagetitle h2{
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 
