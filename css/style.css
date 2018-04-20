@@ -261,8 +261,14 @@ div.videowrapper {
 }
 
 .hidebutton{
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
+  /* position: relative; */
+  padding: 10px;
+}
+
+a{
+  color: black;
 }
 
 .blackbar{
@@ -307,19 +313,17 @@ button{
 
 .recipecontain{
   display: grid;
-  grid-template-columns: auto auto;
-  width: 100%;
-  overflow: hidden; 
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 10px;
 }
 
 .boxone{
-  width: 30%;
-  float: left;
+  /* width: 25%; */
 }
 
-.boxtwo{
-  width: 70%;
-  float: right;
+ .boxtwo{
+   /* width: 75%; */
 }
 
 /*This is the end of the ginger tea styles*/
@@ -440,4 +444,50 @@ section#spread {
   height: 100px;
   display: block;
   color: white;
+}
+
+/*--------------THESE ARE THE MOBILE STYLES------------*/
+/*--------------THESE ARE THE MOBILE STYLES------------*/
+
+@media screen (min-width:600px){
+
+.recipegrid{
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  display: grid;
+}
+
+.recipecard {
+  width: 100%;
+  padding: 0;
+}
+
+.imageBackText h1 {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.recipecontain{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  /* grid-template-rows: 1fr; */
+  /* width: 100%; */
+ }
+
+/*
+.boxone {
+  width: 100%;
+  float: none;
+  display: block;
+} */
+
+/* .boxtwo {
+  width: 100%;
+  float: none;
+  display: block;
+}
+
+*/
 }

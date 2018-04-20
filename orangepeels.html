@@ -1,4 +1,5 @@
 <!DOCTYPE HTMl>
+
 <head>
   <title>Garbage Kitchen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,79 +9,108 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </head>
+
 <body>
   <header>
     <nav class="navbar">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
-    </header>
+  </header>
   <main>
-    <section class="imageBackground" id="orangePhoto">
-      <div class="imageBackText">
-    <h1>Candied Mandarin Orange Peels</h1>
-  </div>
-  </section>
-
-        <!-- <source src="media/Garbage-Kitchen-1.mp4"> -->
-      <section class="actualrecipe">
-        <p>This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description
-        </p>
-
-        <div id="revealtext"><p>THIS IS TOGGLED TEXT</p></div>
-        <div class="btncontainer">
-          <button id="toggle">Read More</button>
-        </div>
-      </section>
-
-      <section class="actualrecipe">
-<div class="recipecontain">
-  <div class="boxone">
-        <h3>Required Equipment</h3>
-        <ul>
-          <li>1 Large Pot</li>
-          <li>Cutting Board & Knife</li>
-          <li>Measuring cup</li>
-          <li>Silicone Mat or Parchment Paper</li>
-          <li>Oven-Safe Wire Rack</li>
-          <li>Cookie Sheet or Baking Sheet</li>
-        </ul>
-        <!-- <h3>Prep</h3>
-        <ul>
-          <li>Julienne mandarin orange peels into thin strips</li>
-          <li>Line a baking sheet with either parchment paper or a silicone mat. Place an oven-safe wire rack on top.</li>
-          <li>Measure out your 1 cup of granulated sugar.</li>
-        </ul> -->
-
-        <h3>Ingredients</h3>
-        <ul>
-          <li>4 Mandarin Orange Peels</li>
-          <li>1 Cup Granulated Sugar</li>
-          <li>3 &amp; 3/4 Cups of Water</li>
-        </ul>
-</div>
-<div class="boxtwo">
-        <h3>Directions</h3>
-        <ol>
-          <li>Wash your mandarin oranges with soap and hot water. Scour the skin of the fruit with a sponge or chainmail mesh to ensure the peel is clean.</li>
-          <li>Dry the oranges with a towel and peel the oranges (keep the pith on.) Julienne the peel into thin strips  </li>
-          <li>Add the strips into a pot and add about 1 ¼ cups of water (or enough to cover the peels.)</li>
-          <li>Simmer the peels for about 5 minutes and strain. Add the peels and fresh water back into the pot and repeat 1 more time. </li>
-          <li>Strain the peels and add peels back to the pot with another 1 ¼ cups of water. Simmer for 30 minutes </li>
-          <li>Strain the peel and reserve the water from the pot. Measure the water and add the same amount of sugar into the pot along with the peels and reserved water. </li>
-          <li>Simmer the peels for around 30-45 minutes or until the peels become translucent and soft. (make sure not to stir the mixture otherwise the peels will crystallize.)</li>
-          <li>Turn off the heat and allow the mixture to cool for around 5 minutes. </li>
-          <li>Remove the peels with a fork and place the warm peels on a wire rack that is set on top of a cookie sheet.</li>
-          <li>Place the cookie sheet with wire rack and peels into your oven at its lowest temperature for around 40 minutes or until the peels are dry. </li>
-          <li>Immediately toss the peels in granulated sugar and store in an airtight container.</li>
-        </ol>
-      </section>
+    <div class="imageBackText">
+      <h1>Candied Mandarin Orange Peels</h1>
     </div>
-  </div>
+    <section class="imageBackground" id="orangePhoto">
+    </section>
+
+    <!-- <source src="media/Garbage-Kitchen-1.mp4"> -->
+    <section class="actualrecipe">
+      <p>This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description
+      </p>
+
+      <div id="revealtext">
+        <p>THIS IS TOGGLED TEXT</p>
+      </div>
+      <div class="btncontainer">
+        <button id="toggle">Read More</button>
+      </div>
+    </section>
+
+    <section class="actualrecipe">
+      <div class="recipecontain">
+        <div class="boxone">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>4 Mandarin Orange Peels</li>
+            <li>1 Cup Granulated Sugar</li>
+            <li>3 &amp; 3/4 Cups of Water</li>
+          </ul>
+          <div class="hideprint">
+
+            <h3>Required Equipment</h3>
+            <ul>
+              <li>1 Large Pot</li>
+              <li>Cutting Board & Knife</li>
+              <li>Measuring cup</li>
+              <li>Silicone Mat or Parchment Paper</li>
+              <li>Oven-Safe Wire Rack</li>
+              <li>Cookie Sheet or Baking Sheet</li>
+            </ul>
+          </div>
+        </div>
+        <div class="boxtwo">
+          <div class="hideprint">
+            <div class="hidebutton">
+              <button id="videos">Hide Videos</button>
+            </div>
+          </div>
+
+
+          <h3>Directions</h3>
+          <ol>
+            <li>Wash your mandarin oranges with soap and hot water. Scour the skin of the fruit with a sponge or chainmail mesh to ensure the peel is clean.</li>
+            <div class="blackbar"></div>
+            <li>Dry the oranges with a towel and peel the oranges (keep the pith on.) Julienne the peel into thin strips </li>
+                <video autoplay loop class="stepvideo"> <source src="media/peels/peels1.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Add the strips into a pot and add about 1 ¼ cups of water (or enough to cover the peels.)</li>
+            <div class="blackbar"></div>
+
+            <li>Simmer the peels for about 5 minutes and strain. Add the peels and fresh water back into the pot and repeat 1 more time. </li>
+                <video autoplay loop class="stepvideo"> <source src="media/peels/peels2.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Strain the peels and add peels back to the pot with another 1 ¼ cups of water. Simmer for 30 minutes </li>
+            <div class="blackbar"></div>
+
+            <li>Strain the peel and reserve the water from the pot. Measure the water and add the same amount of sugar into the pot along with the peels and reserved water. </li>
+                <video autoplay loop class="stepvideo"> <source src="media/peels/peels3.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Simmer the peels for around 30-45 minutes or until the peels become translucent and soft. (make sure not to stir the mixture otherwise the peels will crystallize.)</li>
+            <div class="blackbar"></div>
+
+            <li>Turn off the heat and allow the mixture to cool for around 5 minutes. </li>
+            <div class="blackbar"></div>
+
+            <li>Remove the peels with a fork and place the warm peels on a wire rack that is set on top of a cookie sheet.</li>
+                <video autoplay loop class="stepvideo"> <source src="media/peels/peels4.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Place the cookie sheet with wire rack and peels into your oven at its lowest temperature for around 40 minutes or until the peels are dry. </li>
+            <div class="blackbar"></div>
+
+            <li>Immediately toss the peels in granulated sugar and store in an airtight container.</li>
+          </ol>
+    </section>
+    </div>
+    </div>
   </main>
 </body>
+
 </html>

@@ -1,4 +1,5 @@
 <!DOCTYPE HTMl>
+
 <head>
   <title>Garbage Kitchen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,81 +9,110 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </head>
+
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
-    </header>
+  </header>
   <main>
-    <section class="imageBackground" id="cake">
-      <div class="imageBackText">
-    <h1>Melted Strawberry Ice Cream Cake with Fresh Strawberry Syrup</h1>
-  </div>
-  </section>
+    <div class="imageBackText">
+      <h1>Melted Strawberry Ice Cream Cake with Fresh Strawberry Syrup</h1>
+    </div>
+    <div class="hideprint">
+      <section class="imageBackground" id="cake">
+      </section>
 
-        <!-- <source src="media/Garbage-Kitchen-1.mp4"> -->
+      <!-- <source src="media/Garbage-Kitchen-1.mp4"> -->
       <section class="actualrecipe">
         <p>This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description of the recipe and why it works, etc.This is an short description
         </p>
 
-        <div id="revealtext"><p>THIS IS TOGGLED TEXT</p></div>
+        <div id="revealtext">
+          <p>THIS IS TOGGLED TEXT</p>
+        </div>
         <div class="btncontainer">
           <button id="toggle">Read More</button>
         </div>
       </section>
-
-      <section class="actualrecipe">
-<div class="recipecontain">
-  <div class="boxone">
-        <h3>Required Equipment</h3>
-        <ul>
-          <li>Bundt Pan</li>
-          <li>Spatula</li>
-          <li>Knife &amp; Cutting Board</li>
-          <li>Small Bowl</li>
-        </ul>
-
-        <!-- <h3>Prep</h3>
-        <ul>
-          <li>Cut the broccoli and cauliflower heads into florets</li>
-          <li>Cut the stems of the broccoli into 1/4 inch slices</li>
-          <li>Remove the core from the cauliflower and chop up into 1/4 inch pieces.</li>
-        </ul> -->
-
-        <h3>Ingredients</h3>
-        <ul>
-          <li>1 box of cake mix of your choice</li>
-          <li>1 Pint of Melted Ice Cream</li>
-          <li>3 Eggs</li>
-          <li>2 Cups of Confectioner's Sugar</li>
-          <li>1 Teaspoon of Vanilla</li>
-          <li>1/4 Cup of Milk (I used almond milk)</li>
-        </ul>
-</div>
-<div class="boxtwo">
-        <h3>Directions</h3>
-        <ol>
-          <li>Preheat oven to 350 degrees</li>
-          <li>Cut strawberries into small pieces and set aside</li>
-          <li>Pour cake mix into mixing bowl</li>
-          <li>Crack 3 eggs into cake mix</li>
-          <li>Pour in melted ice cream of your choice (make sure the ice cream is fully melted or the cake won’t bake through properly)</li>
-          <li>Pour 1 cup of strawberries into the cake batter & reserve the other 1 cup for the glaze</li>
-          <li>Mix & pour into a greased bundt pan</li>
-          <li>Follow box’s baking instructions for the pan of your choice</li>
-          <li>Allow time to cool on a wire rack or countertop</li>
-          <li>Add the 2 cups of confectioners sugar, 1 teaspoon of vanilla, ¼ cup of milk & remaining 1 cup of strawberries into a sauce pan</li>
-          <li>Heat on low until combined & smooth</li>
-        </ol>
-      </section>
     </div>
-  </div>
+
+    <section class="actualrecipe">
+      <div class="recipecontain">
+        <div class="boxone">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>1 box of cake mix of your choice</li>
+            <li>1 Pint of Melted Ice Cream</li>
+            <li>3 Eggs</li>
+            <li>2 Cups of Confectioner's Sugar</li>
+            <li>1 Teaspoon of Vanilla</li>
+            <li>1/4 Cup of Milk (I used almond milk)</li>
+          </ul>
+
+          <h3>Required Equipment</h3>
+          <ul>
+            <li>Bundt Pan</li>
+            <li>Spatula</li>
+            <li>Knife &amp; Cutting Board</li>
+            <li>Small Bowl</li>
+          </ul>
+        </div>
+        <div class="boxtwo">
+          <div class="hideprint">
+            <div class="hidebutton">
+              <button id="videos">Hide Videos</button>
+            </div>
+          </div>
+          <h3>Directions</h3>
+          <ol>
+            <li>Preheat oven to 350 degrees</li>
+            <div class="blackbar"></div>
+
+            <li>Cut strawberries into small pieces and set aside</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake2.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Pour cake mix into mixing bowl and crack 3 eggs into cake mix</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake3.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Pour in melted ice cream of your choice (make sure the ice cream is fully melted or the cake won’t bake through properly)</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake4.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Pour 1 cup of strawberries into the cake batter & reserve the other 1 cup for the glaze</li>
+
+            <div class="blackbar"></div>
+
+            <li>Mix & pour into a greased bundt pan</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake5.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Follow box’s baking instructions for the pan of your choice</li>
+            <div class="blackbar"></div>
+
+            <li>Allow time to cool on a wire rack or countertop</li>
+            <div class="blackbar"></div>
+
+            <li>Add the 2 cups of confectioners sugar, 1 teaspoon of vanilla, ¼ cup of milk & remaining 1 cup of strawberries into a sauce pan</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake6.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+
+            <li>Heat on low until combined &amp; smooth</li>
+            <li>Pour over cake &amp; let soak in for around 30 minutes</li>
+            <video autoplay loop class="stepvideo"> <source src="media/cake/cake8.mp4" type="video/mp4"></video>
+            <div class="blackbar"></div>
+          </ol>
+    </section>
+    </div>
+    </div>
   </main>
 </body>
+
 </html>
