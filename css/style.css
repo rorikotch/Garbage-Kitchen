@@ -67,13 +67,15 @@ div.fullpageVideowrapper{
     z-index: -1000;
 }
 
-.homecontainer {
+/* .homecontainer {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 200px);
+} */
+#tagline{
+  text-align: center; 
 }
-
 #homepage-logo{
   display: block;
   margin-left: auto;
