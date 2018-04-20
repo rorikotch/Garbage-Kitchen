@@ -442,12 +442,11 @@ section#candiedginger {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   max-width: 100%;
-  font-family: 'Roboto', sans-serif;
 }
 
-.aboutcontain p{
+/* .aboutcontain p{
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 .pagetitle h2{
   text-decoration: underline;
@@ -458,6 +457,10 @@ section#candiedginger {
 .aboutimage{
   width: 300px;
   height: auto;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
 }
 
 
