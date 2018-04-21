@@ -4,6 +4,10 @@ a:hover{
   font-weight: 700;
 }
 
+a:active{
+  font-weight: 700;
+}
+
 img {
   max-width: 100%;
 }
@@ -444,7 +448,7 @@ section#candiedginger {
   max-width: 100%;
   padding: 10px;
   margin-left: 20px;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 /* .aboutcontain p{
