@@ -81,8 +81,9 @@ div.fullpageVideowrapper{
   text-align: center;
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
   font-weight: 700;
-
+  padding-bottom: 30px;
 }
+
 #homepage-logo{
   display: block;
   margin-left: auto;
