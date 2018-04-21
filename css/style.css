@@ -1,11 +1,12 @@
 /*These are general styles------------------------*/
-/* 
+/*
 a:hover{
   font-weight: 700;
 } */
 
 a:active{
   font-weight: 700;
+  color: red; 
 }
 
 img {
@@ -15,6 +16,11 @@ img {
 #navbar{
   /*this is for if you want to make the navbar a sticky navbar
   IF NOT REMOVE*/
+}
+
+main{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*This is the end of general styles------------------------*/
