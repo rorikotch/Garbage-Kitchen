@@ -387,7 +387,7 @@ section.imageBackground {
   height: 500px;
   width: 100%;
   background-size: cover;
-  margin: 0 auto;
+  margin: 0;
 }
 
 section#orangePhoto {
