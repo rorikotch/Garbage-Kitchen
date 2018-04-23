@@ -1,4 +1,5 @@
-Highcharts.chart('graphone', {
+
+Highcharts.chart('chart', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
