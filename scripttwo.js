@@ -1,5 +1,5 @@
-
-Highcharts.chart('chart', {
+$(function(){
+Highcharts.chart('graph', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -59,4 +59,5 @@ Highcharts.chart('chart', {
             y: 2.61
         }]
     }]
+});
 });
