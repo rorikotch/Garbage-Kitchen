@@ -96,6 +96,7 @@ div.fullpageVideowrapper{
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  padding-top: 20px;
 }
 
 #video-bg {
@@ -296,7 +297,7 @@ div.fullpageVideowrapper{
 
 /*this is the style for the candied madarin orange peels recipe page*/
 
-.imageBackground h1 {
+/* .imageBackground h1 {
   color: white;
   font-family: 'Roboto Slab';
   font-weight: 700;
@@ -306,16 +307,16 @@ div.fullpageVideowrapper{
   padding-bottom: 0;
   z-index: -1;
   overflow: hidden;
-}
+} */
 
-.imageBackground h3 {
+/* .imageBackground h3 {
   color: white;
   font-family: 'Roboto Slab';
   font-weight: 700;
   text-align: center;
   font-size: 32px;
   margin-top: 0;
-}
+} */
 
 .actualrecipe{
   padding-left: 40px;
@@ -487,14 +488,6 @@ section#candiedginger {
   background-image: url("../media/candiedginger.jpg")
 }
 
-
-/* .bannervideo h1{
-  padding: 10px;
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 700;
-} */
-
-
 .homegrid {
 
 }
@@ -584,18 +577,5 @@ h3{
   /* width: 100%; */
  }
 
-/*
-.boxone {
-  width: 100%;
-  float: none;
-  display: block;
-} */
 
-/* .boxtwo {
-  width: 100%;
-  float: none;
-  display: block;
-}
-
-*/
 }
