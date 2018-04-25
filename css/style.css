@@ -165,17 +165,20 @@ div.fullpageVideowrapper{
   text-align: center;
 }
 
-.boxtwo h3 {
+.boxtwo h4 {
   text-decoration: underline;
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
-.box h3{
+.box h4{
   text-decoration: underline;
   text-align: center;
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
 .box p{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .source{
