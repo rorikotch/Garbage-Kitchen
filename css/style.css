@@ -96,7 +96,7 @@ div.fullpageVideowrapper{
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 #video-bg {
@@ -112,6 +112,13 @@ div.fullpageVideowrapper{
   z-index: -10;
   height: auto;
   background-size: cover;
+}
+
+section.imageBackgroundhome {
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 #background {
