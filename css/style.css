@@ -147,6 +147,32 @@ div.fullpageVideowrapper{
   height: 500px;
 }
 
+.containcontain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.box h3{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.box p{
+  text-align: center;
+}
+
+.source{
+  font-style: italic;
+  font-size: 9px;
+  text-align: center;
+}
 
 /* div.videowrapper {
   height: 800px;
