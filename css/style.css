@@ -154,29 +154,29 @@ div.fullpageVideowrapper{
   justify-content: center;
 }
 
-.box {
+.thing {
   border: 1px solid black;
   padding: 10px;
 }
 
-.boxtwo {
+.thingtwo {
   border: 1px solid red;
   padding: 10px;
   text-align: center;
 }
 
-.boxtwo h4 {
+.thingtwo h4 {
   text-decoration: underline;
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
-.box h4{
+.thing h4{
   text-decoration: underline;
   text-align: center;
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
-.box p{
+.thing p{
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
