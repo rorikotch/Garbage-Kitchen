@@ -163,12 +163,12 @@ section.imageBackgroundhome {
 }
 
 .thing {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
 }
 
 .thingtwo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 10px;
   text-align: center;
 }
