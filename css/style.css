@@ -529,6 +529,7 @@ section#candiedginger {
 .aboutimage{
   width: 400px;
   height: auto;
+  padding: 10px; 
 }
 
 p{
