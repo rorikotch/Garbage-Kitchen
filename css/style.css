@@ -19,8 +19,7 @@ img {
 }
 
 main{
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin: 0 0 20px 20px; */
 }
 
 /*This is the end of general styles------------------------*/
@@ -119,6 +118,7 @@ section.imageBackgroundhome {
   width: 100%;
   background-size: cover;
   margin: 0 auto;
+  padding: 0;
 }
 
 #background {
@@ -456,56 +456,62 @@ section.imageBackground {
 }
 
 section#orangePhoto {
-  background-image: url("../media/orange-peels.jpg")
+  background-image: url("../media/orange-peels.jpg");
 }
 
 section#granola {
-  background-image: url("../media/granola.jpg")
+  background-image: url("../media/granola.jpg");
 }
 
 section#mash {
-  background-image: url("../media/mash.jpg")
+  background-image: url("../media/mash.jpg");
 }
 
 section#bread {
-  background-image: url("../media/bread.jpg")
+  background-image: url("../media/bread.jpg");
 }
 
 section#scones {
-  background-image: url("../media/scones.jpg")
+  background-image: url("../media/scones.jpg");
 }
 
 section#cake {
-  background-image: url("../media/cake.jpg")
+  background-image: url("../media/cake.jpg");
 }
 
 section#quickles {
-  background-image: url("../media/quickles.jpg")
+  background-image: url("../media/quickles.jpg");
 }
 
 section#spread {
-  background-image: url("../media/spread.jpg")
+  background-image: url("../media/spread.jpg");
 }
 
 section#gingertea {
-  background-image: url("../media/gingertea.jpg")
+  background-image: url("../media/gingertea.jpg");
 }
 
 section#candiedginger {
-  background-image: url("../media/candiedginger.jpg")
+  background-image: url("../media/candiedginger.jpg");
 }
 
-.homegrid {
+/* .homegrid {
 
-}
+} */
 
 .orangeimage{
 
 }
 
 
+
+
 /*this is the style for the ABOUT page------------------------*/
 
+.about{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .aboutcontain {
   display: grid;
@@ -540,6 +546,10 @@ section#candiedginger {
   padding: 0;
 }
 
+/* .item{
+  text-align: center;
+} */
+
 p{
   font-family: 'Roboto', sans-serif;
 }
@@ -550,6 +560,7 @@ h2{
 
 h3{
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
+  font-size: 24px;
 }
 
 /*this is the END of styles for the ABOUT page--------------*/
