@@ -495,6 +495,9 @@ section#candiedginger {
   background-image: url("../media/candiedginger.jpg");
 }
 
+section#aboutphoto{
+  background-image: url("../media/about/aboutphoto.jpg");
+}
 /* .homegrid {
 
 } */
