@@ -431,9 +431,9 @@ body{
   margin: 0;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 a:visited {
   color: black;
@@ -568,6 +568,11 @@ h3{
   font-size: 24px;
 }
 
+#aboutphoto{
+  margin: 0;
+  padding: 0;
+}
+
 /*this is the END of styles for the ABOUT page--------------*/
 
 
@@ -608,6 +613,7 @@ h3{
   /* grid-template-rows: 1fr; */
   /* width: 100%; */
  }
+
 
 
 }
