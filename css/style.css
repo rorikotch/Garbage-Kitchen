@@ -536,6 +536,7 @@ section#candiedginger {
   width: 400px;
   height: auto;
   padding: 10px;
+  justify-content: center;
 }
 
 .wireframe{
@@ -544,6 +545,7 @@ section#candiedginger {
   padding: 10px;
   border: 1px solid black;
   padding: 0;
+  justify-content: center;
 }
 
 /* .item{
