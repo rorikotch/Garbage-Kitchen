@@ -1,6 +1,5 @@
 /*These are general styles------------------------*/
 
-
 /* a:hover{
   font-weight: 700;
 } */
@@ -471,6 +470,8 @@ section.imageBackground {
   width: 100%;
   background-size: cover;
   margin: 0 auto;
+  background-position: center;
+
 }
 
 section#orangePhoto {
