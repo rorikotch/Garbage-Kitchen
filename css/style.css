@@ -372,6 +372,7 @@ section.imageBackgroundhome {
   padding-top: 10px;
   padding-bottom: 20px;
   max-width: 100%;
+  justify-content: center; 
 }
 
 .hidebutton{
