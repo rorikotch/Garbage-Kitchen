@@ -95,8 +95,10 @@ div.fullpageVideowrapper{
   text-align: center;
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
   font-weight: 700;
+  font-size: 56px;
   padding-bottom: 50px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-shadow: 2px 2px 5px black;
 }
 
 #homepage-logo{
@@ -361,7 +363,7 @@ section.imageBackgroundhome {
   text-align: center;
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
   font-size: 44px;
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 .stepvideo {
