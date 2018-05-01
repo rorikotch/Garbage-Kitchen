@@ -237,6 +237,10 @@ section.imageBackgroundhome {
   padding-bottom: 30px;
 }
 
+.recipegrid a{
+  text-decoration: none;
+}
+
 .recipecard {
   width: 300px;
   height: 400px;
