@@ -602,6 +602,13 @@ h3{
   color: white;
 }
 
+.foot img{
+  width: 5%;
+  height: auto;
+  padding: 10px;
+  float: right;
+}
+
 /*--------------THESE ARE THE MOBILE STYLES------------*/
 /*--------------THESE ARE THE MOBILE STYLES------------*/
 
